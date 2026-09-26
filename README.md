@@ -284,7 +284,7 @@ This could include:
 - EC2 configuration
 - Operating system logs
 - Web server logs
-- Available AWS activity logs
+- Available AWS service and system logs
 
 The investigation would focus on identifying the initial entry point and determining whether additional resources were affected.
 
@@ -366,6 +366,12 @@ EC2 security group configuration restricting SSH access to a trusted source.
 ![AWS Backup](images/aws-backup.png)
 
 AWS Backup plan configured to protect the EC2 workload.
+
+### EC2 AMI
+
+![EC2 AMI](images/ec2-ami.png)
+
+Amazon Machine Image created from the EC2 instance to provide an additional recovery and rebuild option.
 
 ### CloudWatch Monitoring
 
