@@ -357,9 +357,9 @@ IAM users configured with different permission levels for administrative and rea
 
 ### EC2 IAM Role
 
-![EC2 IAM Role](ec2-iam-role.png)
+![EC2 IAM Role](images/ec2-iam-role.png)
 
-IAM role attached to the EC2 instance, allowing the workload to interact with AWS services without storing long-term credentials on the server.
+IAM role configured for the EC2 instance, allowing the workload to access S3 through AWS-managed permissions rather than using hard-coded credentials.
 
 ### Restricted SSH Access
 
