@@ -349,12 +349,6 @@ Amazon EC2 instance running an Apache web server and serving a webpage through i
 
 Amazon S3 bucket configuration showing server-side encryption enabled.
 
-### IAM Access Control
-
-![IAM Access](images/iam-access.png)
-
-IAM users configured with different permission levels for administrative and read-only access.
-
 ### EC2 IAM Role
 
 ![EC2 IAM Role](images/ec2-iam-role.png)
